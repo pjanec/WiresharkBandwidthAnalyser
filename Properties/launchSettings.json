@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "WiresharkAnalyst": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\Temp\\MT-net-trouble\\MaorTestWireShark.pcapng  --mode=bytes --html=D:\\Temp\\MT-net-trouble\\MaorTestWireShark.html"
+    }
+  }
+}
+//--blacklist-tcp-ports=5900,5045
+//--blacklist-tcp-ports=<port1>,<port2>
+//--blacklist-udp-ports=<port1>,<port2>
+//--blacklist-ips=<ip1>,<ip2>
